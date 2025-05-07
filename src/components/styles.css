@@ -1,0 +1,89 @@
+/* styles.css */
+.auth-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .auth-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
+  
+  .auth-header {
+    border: none;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .form-label {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .auth-input {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  .auth-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+  }
+  
+  .btn-suraksha-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .btn-suraksha-primary:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .btn-suraksha-success {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .btn-suraksha-success:hover {
+    background-color: #218838;
+    color: white;
+  }
+  
+  .auth-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .auth-link:hover {
+    color: #0056b3;
+  }
+  
+  .auth-error {
+    color: #dc3545;
+    font-size: 14px;
+    padding: 8px;
+    background-color: #f8d7da;
+    border-radius: 4px;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
