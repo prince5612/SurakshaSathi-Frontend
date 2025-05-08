@@ -58,7 +58,7 @@ export default function Login({ onLogin }) {
   return (
     <div style={styles.container}>
       <div style={styles.card}>
-        <h2 style={styles.title}>Login to Suraksha Sakhi</h2>
+        <h2 style={styles.title}>Login to Suraksha Sathi</h2>
         <form onSubmit={handleSubmit} style={styles.form}>
           <input
             type="email"

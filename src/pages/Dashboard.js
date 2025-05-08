@@ -41,8 +41,10 @@ export default function Dashboard() {
     policy => (history[policy] || []).length > 0
   ).length;
 
-  const totalPremium = Object.values(history).flat()
-    .reduce((sum, p) => sum + p.amount, 0);
+  const totalPremium = parseInt(
+    Object.values(history).flat().reduce((sum, p) => sum + p.amount, 0)
+  );
+  
 
   return (
     <div className="py-5">
